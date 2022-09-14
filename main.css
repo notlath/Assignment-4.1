@@ -25,19 +25,7 @@ span {
   justify-content: center;
   align-items: center;
 }
-/* TRY
-cards--colorize span {
-  position: absolute;
-  text-align: center;
-  height: 100%;
-  width: 100%;
-}
-cards--colorize span:before {
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;
-  content: "";
-} */
+
 /* Navigation Bar */
 .top-bar {
   margin: 0px;
