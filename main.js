@@ -5,7 +5,9 @@ function openNav() {
   document.getElementById("parent").style.marginLeft = "300px";
   document.getElementById("bg").style.marginLeft = "300px";
   document.getElementById("imgBox").style.marginLeft = "-198px";
-
+  document.getElementById("1").style.marginLeft = "-120px";
+  document.getElementById("2").style.marginLeft = "300px";
+  document.getElementById("3").style.marginLeft = "70px";
 }
 
 function closeNav() {
@@ -14,7 +16,9 @@ function closeNav() {
   document.getElementById("parent").style.marginLeft = "0";
   document.getElementById("bg").style.marginLeft = "0";
   document.getElementById("imgBox").style.marginLeft = "0";
- 
+  document.getElementById("1").style.marginLeft = "17px";
+  document.getElementById("2").style.marginLeft = "0";
+  document.getElementById("3").style.marginLeft = "20px";
 }
 
 /* Neumorphism Login Form */
