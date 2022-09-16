@@ -16,6 +16,10 @@ body {
 span {
   margin: 1rem;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .main {
   margin-left: 90px;
   margin-right: 90px;
@@ -66,7 +70,7 @@ title-inner {
   font-size: 30px;
   line-height: 1em;
   font-weight: 500;
-  margin-left: 515px;
+  margin-left: 400px;
   font-family: "Playfair Display", serif;
 }
 
@@ -86,12 +90,15 @@ title-inner {
   margin-top: 20px;
   padding: 8px 20px;
   background: rgb(205, 174, 108);
+  font-family: "Montserrat", sans-serif;
+  border: none;
   color: black;
   border-radius: 40px;
-  font-weight: 550;
+  font-weight: 700;
   letter-spacing: 1px;
   text-decoration: none;
   transition: 0.25s;
+  padding: 15px;
 }
 button#btn:hover {
   background-color: rgb(132, 107, 55);
@@ -129,11 +136,19 @@ button#btn:hover {
   margin: 0;
   display: flex;
   align-items: center;
-  font-family: "Antonio", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   letter-spacing: -1px;
   width: 100vw;
   max-width: 100%;
+}
+.header-title {
+  margin-left: 10px;
+  font-size: 40px;
+
+  font-weight: 400;
+
+  color: #eeeade;
 }
 .main-1 {
   transition: margin-left 0.5s;
