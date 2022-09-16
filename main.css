@@ -7,7 +7,8 @@ body {
   background-color: #170808;
   font-family: "Raleway", sans-serif;
   background-image: url(./assets/background.jpeg.png);
-
+width: 100vw;
+max-width:100%;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -128,6 +129,8 @@ button#btn:hover {
   font-family: "Antonio", sans-serif;
   font-weight: 700;
   letter-spacing: -1px;
+  width: 100vw;
+  max-width: 100%;
 }
 .main-1 {
   transition: margin-left 0.5s;
@@ -180,6 +183,8 @@ button#btn:hover {
 .bg {
   background-color: #eeeade;
   position: relative;
+  width: 100vw;
+  max-width: 100%;
 }
 .child {
   position: absolute;
@@ -217,6 +222,7 @@ button#btn:hover {
   align-items: center;
   margin: 5px;
   width: 350px;
+  max-width: 100%;
   height: 196.88px; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
   border-radius: 20px;
