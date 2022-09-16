@@ -21,6 +21,7 @@ span {
   margin-right: 90px;
   margin-top: 0;
   display: inline-block;
+  
 }
 .parent {
   align-items: center;
@@ -28,7 +29,10 @@ span {
   margin: 0;
   align-items: center;
 }
-
+title-inner{
+  width: 100vw;
+  max-width: 100%;
+}
 .img-blocks {
   display: flex;
   justify-content: center;
@@ -43,6 +47,7 @@ span {
   position: block;
   align-items: center;
   height: 100vh;
+  
 }
 
 .content .textbox {
@@ -91,7 +96,7 @@ span {
   transition: 0.25s;
 }
 button#btn:hover {
-  background-color: rgb(90, 73, 35);
+  background-color: rgb(132, 107, 55);
   transform: scale(0.985);
 }
 .imgBox {
