@@ -1,13 +1,12 @@
 * {
   scroll-behavior: smooth;
-  
 }
 
 body {
   margin: 0;
   background-color: #170808;
   font-family: "Raleway", sans-serif;
-  background-image: url(./assets/background.jpeg.png);
+  background-image: url(./assets/traditional-bg.jpg);
   width: 100vw;
   max-width: 100%;
   background-size: cover;
@@ -16,6 +15,10 @@ body {
 }
 span {
   margin: 1rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 .main {
   margin-left: 90px;
@@ -26,7 +29,7 @@ span {
 .parent {
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin: 20px;
   align-items: center;
 }
 title-inner {
@@ -67,7 +70,7 @@ title-inner {
   font-size: 30px;
   line-height: 1em;
   font-weight: 500;
-  margin-left: 515px;
+  margin-left: 400px;
   font-family: "Playfair Display", serif;
 }
 
@@ -87,12 +90,15 @@ title-inner {
   margin-top: 20px;
   padding: 8px 20px;
   background: rgb(205, 174, 108);
+  font-family: "Montserrat", sans-serif;
+  border: none;
   color: black;
   border-radius: 40px;
-  font-weight: 550;
+  font-weight: 700;
   letter-spacing: 1px;
   text-decoration: none;
   transition: 0.25s;
+  padding: 15px;
 }
 button#btn:hover {
   background-color: rgb(132, 107, 55);
@@ -112,7 +118,19 @@ button#btn:hover {
   margin-bottom: 30px;
   height: 550px;
 }
-
+.description {
+  color: #eeeade;
+  width: 100%;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Playfair Display", serif;
+}
+.description li {
+  display: inline;
+  margin-right: 3.5%;
+}
 /* Navigation Bar */
 .top-bar {
   margin: 0px;
@@ -125,16 +143,23 @@ button#btn:hover {
   top: 0;
   align-items: center;
   height: 100px;
+  z-index: 1;
 }
 .header {
   margin: 0;
   display: flex;
   align-items: center;
-  font-family: "Antonio", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   letter-spacing: -1px;
   width: 100vw;
   max-width: 100%;
+}
+.header-title {
+  margin-left: 10px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #eeeade;
 }
 .main-1 {
   transition: margin-left 0.5s;
@@ -175,13 +200,81 @@ button#btn:hover {
   margin-left: 50px;
 }
 
-td {
-  color: white;
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+/* STACKS */
+.bg {
+  background-color: #eeeade;
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-219%, -50%);
+  font-family: "Antonio", sans-serif;
+  font-size: 2.5rem;
+  color: #eeeade;
+  z-index: 5;
+}
+.child-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Antonio", sans-serif;
+  font-size: 2.5rem;
+  color: #eeeade;
+  z-index: 5;
+}
+.child-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(200%, -50%);
+  font-family: "Antonio", sans-serif;
+  font-size: 2.5rem;
+  color: #eeeade;
+  z-index: 5;
+}
+span {
+  color: #eeeade;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  justify-content: center;
   text-align: center;
-  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+/* [1] The container */
+.cards {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  max-width: 100%;
+  width: 337.5px;
+  height: 400px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
 }
 
-th {
-  align-items: center;
-  
+/* Colorize-zoom Container */
+.cards--colorize img {
+  transition: filter 0.5s ease-in-out;
+  filter: grayscale(100%) blur(1px);
+}
+.cards--colorize:hover img {
+  filter: blur(0px) brightness(100%);
+  filter: grayscale(0%) blur(0px);
 }
