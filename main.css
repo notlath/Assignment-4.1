@@ -7,8 +7,8 @@ body {
   background-color: #170808;
   font-family: "Raleway", sans-serif;
   background-image: url(./assets/background.jpeg.png);
-width: 100vw;
-max-width:100%;
+  width: 100vw;
+  max-width: 100%;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -21,7 +21,6 @@ span {
   margin-right: 90px;
   margin-top: 0;
   display: inline-block;
-  
 }
 .parent {
   align-items: center;
@@ -29,7 +28,7 @@ span {
   margin: 0;
   align-items: center;
 }
-title-inner{
+title-inner {
   width: 100vw;
   max-width: 100%;
 }
@@ -47,7 +46,6 @@ title-inner{
   position: block;
   align-items: center;
   height: 100vh;
-  
 }
 
 .content .textbox {
