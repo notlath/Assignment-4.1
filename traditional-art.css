@@ -292,7 +292,7 @@ span {
   height: 337.5px;
   width: 400px; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-  border-radius: 20px;
+  border-radius: 30px;
   display: flex;
   justify-content: center;
   object-fit: cover;
