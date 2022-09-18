@@ -71,4 +71,4 @@ function smoothScroll(target, duration) {
   }
   requestAnimationFrame(loop);
 }
-p;
+

@@ -1,6 +1,5 @@
 * {
   scroll-behavior: smooth;
-  
 }
 
 body {
@@ -123,8 +122,10 @@ button#btn:hover {
   align-items: center;
   position: sticky;
   top: 0;
-  align-items: center;
   height: 100px;
+  z-index: 1;
+  width: 100vw;
+  max-width: 100%;
 }
 .header {
   margin: 0;
@@ -144,7 +145,7 @@ button#btn:hover {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   top: 0;
   left: 0;
   background-color: #280606;
@@ -183,5 +184,4 @@ td {
 
 th {
   align-items: center;
-  
 }
