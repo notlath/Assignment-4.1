@@ -87,4 +87,8 @@ function smoothScroll(target, duration) {
   }
   requestAnimationFrame(loop);
 }
-p;
+/* Alert Message */
+
+function myFunction() {
+  alert("Thank you for contributing!");
+}

@@ -3,13 +3,14 @@ html {
 }
 
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Raleway", sans-serif;
   transition: background-color 0.5s;
   margin: 0;
 }
 
 a {
-  font-family: "Gotham", sans-serif;
+  text-decoration: none;
+  color: inherit;
 }
 
 span {
